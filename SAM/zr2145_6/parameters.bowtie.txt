@@ -1,0 +1,9 @@
+contigs	../../CARD/nucleotide_fasta_protein_homolog_model.fasta
+sequences1	/biorg/data/Vaginal/zr2145_6_R1.fastq
+sequences2	/biorg/data/Vaginal/zr2145_6_R2.fastq
+threads	24
+local	True
+veryfastlocal	True
+nodiscordant	True
+nomixed	True
+nounal	True
