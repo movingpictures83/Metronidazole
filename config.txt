@@ -1,0 +1,64 @@
+Prefix pipelines/Metronidazole/
+Kitty SAM/zr2145_1
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_2
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_3
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_4
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_5
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_6
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_7
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_8
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_9
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_10
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_11
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_12
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_13
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_14
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_15
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_16
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_17
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_18
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_19
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty SAM/zr2145_20
+Pipeline pipelines/Metronidazole/config.abundance.txt
+Kitty .
+Plugin Copy inputfile SAM/zr2145_1/out.abundance.txt outputfile out_abundance/zr2145_1-abundance.txt
+Plugin Copy inputfile SAM/zr2145_2/out.abundance.txt outputfile out_abundance/zr2145_2-abundance.txt
+Plugin Copy inputfile SAM/zr2145_3/out.abundance.txt outputfile out_abundance/zr2145_3-abundance.txt
+Plugin Copy inputfile SAM/zr2145_4/out.abundance.txt outputfile out_abundance/zr2145_4-abundance.txt
+Plugin Copy inputfile SAM/zr2145_5/out.abundance.txt outputfile out_abundance/zr2145_5-abundance.txt
+Plugin Copy inputfile SAM/zr2145_6/out.abundance.txt outputfile out_abundance/zr2145_6-abundance.txt
+Plugin Copy inputfile SAM/zr2145_7/out.abundance.txt outputfile out_abundance/zr2145_7-abundance.txt
+Plugin Copy inputfile SAM/zr2145_8/out.abundance.txt outputfile out_abundance/zr2145_8-abundance.txt
+Plugin Copy inputfile SAM/zr2145_9/out.abundance.txt outputfile out_abundance/zr2145_9-abundance.txt
+Plugin Copy inputfile SAM/zr2145_10/out.abundance.txt outputfile out_abundance/zr2145_10-abundance.txt
+Plugin Copy inputfile SAM/zr2145_11/out.abundance.txt outputfile out_abundance/zr2145_11-abundance.txt
+Plugin Copy inputfile SAM/zr2145_12/out.abundance.txt outputfile out_abundance/zr2145_12-abundance.txt
+Plugin Copy inputfile SAM/zr2145_13/out.abundance.txt outputfile out_abundance/zr2145_13-abundance.txt
+Plugin Copy inputfile SAM/zr2145_14/out.abundance.txt outputfile out_abundance/zr2145_14-abundance.txt
+Plugin Copy inputfile SAM/zr2145_15/out.abundance.txt outputfile out_abundance/zr2145_15-abundance.txt
+Plugin Copy inputfile SAM/zr2145_16/out.abundance.txt outputfile out_abundance/zr2145_16-abundance.txt
+Plugin Copy inputfile SAM/zr2145_17/out.abundance.txt outputfile out_abundance/zr2145_17-abundance.txt
+Plugin Copy inputfile SAM/zr2145_18/out.abundance.txt outputfile out_abundance/zr2145_18-abundance.txt
+Plugin Copy inputfile SAM/zr2145_19/out.abundance.txt outputfile out_abundance/zr2145_19-abundance.txt
+Plugin Copy inputfile SAM/zr2145_20/out.abundance.txt outputfile out_abundance/zr2145_20-abundance.txt
+Plugin SampleExtract inputfile parameters/parameters.sampleextract.txt outputfile samples_list.txt
+Plugin CombineAbundance inputfile parameters/parameters.combineabundance.txt outputfile out_abundance/combined_abr.csv

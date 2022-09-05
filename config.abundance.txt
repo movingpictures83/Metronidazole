@@ -1,0 +1,2 @@
+Plugin Bowtie inputfile parameters.bowtie.txt outputfile output
+Plugin Bowtie2Abund inputfile ../../parameters/parameters.bowtie2abund.txt outputfile out.abundance.txt
