@@ -1,0 +1,4 @@
+threads	24
+indexname	ABR
+fasta	CARD/nucleotide_fasta_protein_homolog_model.fasta
+bowtieapp	/disk/delphi/users/tcickovs/PluMA/plugins/MOCAT/mocat2/stable/2.1.3/bin/

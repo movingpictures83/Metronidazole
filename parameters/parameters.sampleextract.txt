@@ -1,0 +1,2 @@
+abunddir	/biorg/data/Vaginal
+suffix	_R1.fastq
